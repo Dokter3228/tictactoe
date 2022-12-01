@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 400px;
+  height: 400px;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.plate {
+  width: 33.3%;
+  height: 33.3%;
+  border: 2px solid black;
+  font-size: 100px;
+  text-align: center;
+  cursor: pointer;
+}
