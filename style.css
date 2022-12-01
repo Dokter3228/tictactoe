@@ -13,13 +13,22 @@
   margin-top: 20px;
   align-items: center;
   justify-content: center;
+  font-size: 30px;
 }
 
 .plate {
   width: 33.3%;
   height: 33.3%;
-  border: 2px solid black;
   font-size: 100px;
   text-align: center;
+  cursor: pointer;
+}
+
+.btn-win {
+  width: 100px;
+  height: 50px;
+  background-color: lightblue;
+  font-size: 20px;
+  border: none;
   cursor: pointer;
 }
